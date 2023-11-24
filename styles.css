@@ -1,0 +1,32 @@
+table, th, td {
+    border: 2px solid black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+td {
+    padding: 15px;
+}
+
+body {
+    background-color: pink;
+}
+
+tr:hover {background-color: white;}
+
+
+#tag {
+    font-family: monospace;
+    background-color: yellow;
+}
