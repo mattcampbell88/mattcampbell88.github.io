@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    height: 50rem;
+    background: url("../images/thailandbeach.jpg") center center no-repeat;
+    background-size: cover;
+    color:antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .navigation{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    left: 0px;
+    overflow-y: auto;
+    padding:30px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+    list-style: none;
+  }
+
+  .navigation li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+  }
+
+  .banner h2 {
+    padding: .55rem 0;
+    border-top: 4px solid #ffb78c;
+    border-bottom: 4px solid #ffb78c;
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+  
+  .banner h1 {
+    padding-top: 1.11rem;
+    font-size: 50px;
+  }
+
+
+  
