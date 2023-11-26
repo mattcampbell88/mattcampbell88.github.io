@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./Resources/css/index.css">
+</head>
+<body>
+  <div class="navigation">
+    <ul><!--add a href to these.-->
+    <li>TRAVEL</li>
+    <li>WORK</li>
+    <li>CONTACT</li>
+  </ul>
+</div>
+    <div class="header">
+            <div class="header-text">Matt Campbell</div>
+    </div>
+     <!-- Banner -->
+  <div class="banner">
+    <h2>Portfolio</h2>
+    <h1>Matt Campbell</h1>
+  </div>
+
+    <!--This is the main bit of info I want about myself!-->
+    <div>
+        <main>
+          <p> I began study HTML and CSS in November 23 after 10 years of being a primary School Teacher.</p>
+        </main>
+    </div>
+
+<!--This is the footer-->
+    <div>
+        <footer>
+
+        </footer>
+    </div>
+    
+</body>
+</html>
