@@ -1,0 +1,166 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.header {
+   background-color: gray;
+   position: fixed;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid black;
+   top: 0;
+   left: 0;
+   height: 8.5rem;
+   z-index: 100;
+
+}
+
+.header h1 {
+    justify-content: center;
+    font-size: 4rem;
+    color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+   position: absolute;
+    text-decoration: none;
+    color: beige;
+    font-family: "Barlow", Arial, Helvetica, sans-serif;
+    right: 5rem;
+
+}
+
+.statement {
+   position: relative;
+    width: 100%;
+    top: 8rem;
+    border: none;
+}
+
+
+.mission-statement {
+    font-family: "Barlow";
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  text-align: center;
+  
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .mission-statement:hover .overlay {
+    height: 100%;
+
+  }
+
+  .statement img {
+    width: 100%;
+    
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    position: relative;
+    top: 20rem;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.products img {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    left: 50rem;
+    border-radius: 2rem;
+}
+
+.products p {
+    font-family: "Barlow";
+    font-size: 2rem;
+    text-align: center;
+}
+
+.team {
+background-color: darkgray;
+position: relative;
+bottom: 0;
+margin-top: 25rem;
+color: cornsilk;
+font-family: "Barlow";
+text-align: center;
+}
+
+.team img {
+    width: 20rem;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.team p {
+    font-family: "Barlow";
+    font-size: 2rem;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    font-family: "Barlow";
+    padding-left: 10rem;
+    height: 10rem;
+}
+
+
+  .footer {
+    list-style-type: none;
+  text-align: center; 
+  padding: 4rem;
+  margin: 0;
+  
+  }
+
+  .footer p {
+    display: inline-block;
+    width: auto;
+    padding: 4rem;
+    font-size: 30px;
+    
+  }
